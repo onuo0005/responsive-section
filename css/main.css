@@ -54,10 +54,12 @@ section p {
 }
 
 .wrapper {
-  max-width: 43em;
-  margin: 0;
+  max-width: 45em;
+  margin: 0 auto;
   padding-top: 1.3rem;
+  overflow: hidden;
 }
+
 body {
   margin: 0;
 }
@@ -106,11 +108,6 @@ body {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  .wrapper {
-    margin-right: auto;
-    margin-left: auto;
   }
 
 }
